@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             participantsHTML += `<li>${participant}</li>`;
           });
         } else {
-          participantsHTML += `<li class='no-participants'›No participants yet</li>`;
+          participantsHTML += `<li class="no-participants">No participants yet</li>`;
         }
         participantsHTML += "</ul>";
 
